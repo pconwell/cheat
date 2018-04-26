@@ -1,5 +1,5 @@
-[python](https://www.google.com)
+[python](python.md)
 
-[camping](https://www.google.com)
+[camping](camping.md)
 
-[markdown](https://www.google.com)
+[markdown](markdown.md)
