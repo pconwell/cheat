@@ -58,4 +58,6 @@ class Person():
 'Patrick'
 >>> patrick.jump()
 'Patrick is jumping'
+>>> patrick.birthDate
+'1-1-1980'
 ```
