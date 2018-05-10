@@ -43,13 +43,13 @@ d = {k: v for k,v in dict.items() if v > 2}
 ## Classes:
 
 ```python
-class Person(object):
+class Person():
     def __init__(self, name, birthDate):
         self.name = name.lower().capitalize()
         self.birthDate = birthDate
         
     def jump(self):    
-        return self.name + " is jumping"
+        return f"{self.name} is jumping!"
 ```
 
 ```python
