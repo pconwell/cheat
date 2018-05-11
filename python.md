@@ -40,6 +40,17 @@ d = {k: v for k,v in dict.items() if v > 2}
 
 ```
 
+### Nested Dict Comprehension
+```python
+shift = {}
+for row in ws.iter_rows(f"B{ws.min_row}:B{ws.max_row}"):
+    for cell in row:
+        if cell.value is not None:
+            shift[cell.value] = cell.row
+            
+shift = {cell.value: cell.row for row in ws.iter_rows(f"B{ws.min_row}:B{ws.max_row}") for cell in row if cell.value is not None}
+```
+
 ## Classes:
 
 ```python
