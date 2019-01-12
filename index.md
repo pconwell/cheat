@@ -2,5 +2,6 @@
   * [pipenv](python-pipenv.md)
   * [pandas](python-pandas.md)
 * [git](git.md)
+* [mysql](mysql.md)
 * [camping](camping.md)
 * [markdown](markdown.md)
