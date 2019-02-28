@@ -1,4 +1,4 @@
-test1
+test2
 
 # Installation of Deluge on Ubuntu Server
 
@@ -22,7 +22,7 @@ Now you can install Deluge, Deluge Web-interface and Deluged by running these th
 
 Now you can verify installation by running `which deluge deluge-web deluged`, the output should look like this:
 
-```Shell
+```bash
 flemmingss@Deluge:~$ which deluge deluge-web deluged
 /usr/bin/deluge
 /usr/bin/deluge-web
@@ -62,7 +62,7 @@ Now run the following three commands:
 ```sudo systemctl status deluged ```
 
 The output should look similar to this:
-```Shell Session
+```bash
 flemmingss@Deluge:~$ sudo systemctl enable /etc/systemd/system/deluged.service
 Created symlink from /etc/systemd/system/multi-user.target.wants/deluged.service to /etc/systemd/system/deluged.service.
 flemmingss@Deluge:~$ sudo systemctl start deluged
