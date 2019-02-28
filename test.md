@@ -5,22 +5,22 @@ These steps will lead you to a complete installation of Deluge with the necessar
 
 ## Installation
 
-First add the Deluge personal package archive by running ``` sudo add-apt-repository ppa:deluge-team/ppa ```.
+First add the Deluge personal package archive by running `sudo add-apt-repository ppa:deluge-team/ppa`.
 
-Then run ```sudo apt-get update``` to get the update from the above PPA.
+Then run `sudo apt-get update` to get the update from the above PPA.
 
 Now you can install Deluge, Deluge Web-interface and Deluged by running these three commands:
 
-```sudo apt-get install deluge```
+`sudo apt-get install deluge`
 
-```sudo apt install deluge-web -y```
+`sudo apt install deluge-web -y`
 
-```sudo apt install deluged```
+`sudo apt install deluged`
 
 
-Now you can verify installation by running ```which deluge deluge-web deluged```, the output should look like this:
+Now you can verify installation by running `which deluge deluge-web deluged`, the output should look like this:
 
-```Shell Session
+```Shell
 flemmingss@Deluge:~$ which deluge deluge-web deluged
 /usr/bin/deluge
 /usr/bin/deluge-web
