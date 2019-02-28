@@ -6,3 +6,5 @@
 * [camping](camping.md)
 * [markdown](markdown.md)
 * [unifi AP](unifiap.md)
+
+[test.md](test.md)
