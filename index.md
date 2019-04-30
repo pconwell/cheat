@@ -1,5 +1,6 @@
 * [python](python.md)
   * [pipenv](python-pipenv.md)
+  * [vs code & pipenv](python-vscode-pipenv.md)
   * [pandas](python-pandas.md)
 * [git](git.md)
 * [mysql](mysql.md)
