@@ -8,7 +8,7 @@
 4. Close & Open project (per step #1)
 5. Navigate to `.vscode` -> `settings.json` and note the path to the current pipenv
 6. Edit the settings file to match:
-```
+```json
 {
    "python.venvPath": "C:/Users/[username]/.virtualenvs",
    "python.pythonPath": "C:/Users/[username]/.virtualenvs/[pipenv_path]/Scripts/python.exe"
