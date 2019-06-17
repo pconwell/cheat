@@ -108,13 +108,45 @@ Attempt to upload the script by `ctrl+alt+u` or clicking the `upload` button
 > This seems to be autodetected? In my particular case it was `/dev/ttyACM0` which was the top option AND appeared to have already detected the attached board
 
 
-# bugs here???
+## Test Upload to board
+
+1. `ctrl+alt+u` or click `upload` button
 
 
+## .vscode examples
+> for troubleshooting purposes, your .vscode folder should contain something like the following:
 
-## Install additional libaries if needed
+### arduino.json
 
-> If you run in to an error such as `java.lang.UnsatisfiedLinkError: /.../.../java/lib/i386/libawt_xawt.so: libXext.so.6: cannot open shared object file`
+```
+{
+    "board": "arduino:avr:uno",
+    "sketch": "test.ino",
+    "port": "/dev/ttyACM0"
+}
+```
 
-1. `$ apt-file search libXext.so.6`
-2. `$ sudo apt install `
+### c_app_properties.json
+
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/pconwell/arduino-1.8.9/tools/**",
+                "/home/pconwell/arduino-1.8.9/hardware/arduino/avr/**"
+            ],
+            "forcedInclude": [
+                "/home/pconwell/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
+```
+
