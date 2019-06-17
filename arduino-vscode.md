@@ -3,7 +3,7 @@
 ## Install Arduino IDE
 
 1. https://www.arduino.cc/en/main/software#download
-2. Download appropriate version
+2. Download appropriate version (double check that you are downloading the *right* version because the wrong version will install but will not work...)
 3. (Linux) Extract (probably to home folder...)
 4. cd into extracted folder
 5. `$ chmod +x ./install.sh`
