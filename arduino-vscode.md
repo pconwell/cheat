@@ -4,9 +4,12 @@
 
 1. https://www.arduino.cc/en/main/software#download
 2. Download appropriate version
-3. (Linux) Extract
-4. `$ chmod +x ./install.sh`
-5. `$ sudo ./install.sh`
+3. (Linux) Extract (probably to home folder...)
+4. cd into extracted folder
+5. `$ chmod +x ./install.sh`
+6. `$ sudo ./install.sh`
+7. `$ ./arduino-linux-setup.sh $USER`
+8. `$ sudo shutdown now -r`
 
 ## Install Arduino Plugin for VS Code
 
