@@ -104,6 +104,11 @@ Attempt to upload the script by `ctrl+alt+u` or clicking the `upload` button
 
 > This seems to be autodetected? In my particular case it was `/dev/ttyACM0` which was the top option AND appeared to have already detected the attached board
 
+
+# bugs here???
+
+
+
 ## Install additional libaries if needed
 
 > If you run in to an error such as `java.lang.UnsatisfiedLinkError: /.../.../java/lib/i386/libawt_xawt.so: libXext.so.6: cannot open shared object file`
