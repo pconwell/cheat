@@ -62,7 +62,7 @@
 - [ ] Sleeping Bag
 - [ ] Sleeping Pad
 - [ ] Baby Hammock
-- [ ] Pillow
+- [ ] ~~Pillow~~
 - [ ] Pillow Case
 - [ ] Chair
 - [ ] Trash Bags
@@ -125,4 +125,5 @@
 
 ## to add
 - [ ] belt
-- [ ] 
+- [ ] white noise machine
+- [ ] sleep medication
