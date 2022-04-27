@@ -35,6 +35,7 @@
 
 ### Lower
 - [ ] Underwear
+- [ ] belt
 - [ ] Pants
 
 ### Upper
@@ -100,6 +101,7 @@
 - [ ] Floss
 - [ ] Shovel
 - [ ] Baby Wipes
+- [ ] Sleep Medication
 
 ## First Aid / Emergencies
 
@@ -122,8 +124,4 @@
 - [ ] Tape
 - [ ] Poles
 - [ ] 550 Cord
-
-## to add
-- [ ] belt
-- [ ] white noise machine
-- [ ] sleep medication
+- [ ] White Noise Machine
